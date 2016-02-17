@@ -1,0 +1,4 @@
+# VillageHouse
+villagehouse
+
+villageHouse是Android客户端代码。villageHouseWeb是使用Java写的Web端。还有用SQL Server写的数据库文件没有在本地没有导入到这里。
