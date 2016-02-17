@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:background="@color/blue"
+       android:gravity="center"
+       >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/yule_title"
+        android:textColor="#ffffff"
+        android:textSize="18dip" />
+
+     </LinearLayout>
+     
+     <RelativeLayout 
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" 
+        android:background="#fbfbfb"      
+         >
+         <EditText 
+            android:id="@+id/findEditText"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="7dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:background="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:text=""
+            android:hint="请输入查找的内容"
+             />
+ 
+
+         <Button
+             android:id="@+id/search_btn"
+             android:layout_width="70dip"
+             android:layout_height="40dip"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="20dp"
+             android:background="@color/blue" 
+             android:text="@string/search"
+             android:textColor="@android:color/white"
+             />
+        
+     </RelativeLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#ccc" />
+     
+     <com.example.view.listview.XListView
+        android:id="@+id/yule_lv"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:dividerHeight="3dip"
+        android:divider="#f7f7f7"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        />
+   
+
+</LinearLayout>

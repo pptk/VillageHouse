@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f8f7f7"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/blue" >
+
+    
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="@string/secondhand_title"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/input"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/comment"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+        
+
+   </RelativeLayout>
+    
+    
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fefefe"
+        >
+    <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            >
+
+            <TextView 
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="25dip"
+                android:layout_toRightOf="@+id/touxiang"
+                android:layout_marginLeft="10dip"
+                android:layout_centerVertical="true"
+                android:textSize="15dip"
+                android:text="且行且珍惜"
+                />
+            <LinearLayout 
+               android:orientation="horizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="20dip"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:gravity="center_vertical"
+               >
+
+               <TextView
+                android:id="@+id/showtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1小时"
+                android:textSize="15dip"
+                /> 
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+             <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="空有一颗减肥的心、偏偏生了一张吃货的最，如果我看起来没有精神，可能是累了，可能是生病了，单最大的可能是饿了。"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+            />
+             <TextView
+                android:id="@+id/space1"
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+            />
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="15dip"
+              android:layout_marginRight="5dip"
+              >
+             <ImageView
+                 android:id="@+id/image1"
+                 android:layout_width="90dip"
+                 android:layout_height="90dip" 
+                 />
+             <TextView
+                 android:id="@+id/image_space1"
+                 android:layout_width="10dip"
+                 android:layout_height="10dip"
+                 android:layout_toRightOf="@id/image1"
+                 />
+             <ImageView
+                 android:id="@+id/image2"
+                 android:layout_width="90dip"
+                 android:layout_height="90dip" 
+                 android:layout_toRightOf="@id/image_space1"
+                 />
+
+          </RelativeLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dip"
+               />
+             
+    </LinearLayout>
+        
+           <TextView
+                android:id="@+id/space2"
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+            />
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fefefe"
+        >
+         
+        <TextView
+                android:id="@+id/space3"
+                android:layout_width="match_parent"
+                android:layout_height="10dip"
+            />  
+        
+ 
+        
+        <TextView
+            android:id="@+id/comment" 
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:text="评论"
+            android:textSize="20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:textStyle="bold"
+            />    
+         <ListView
+            android:id="@+id/lv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:dividerHeight="5dip"
+            android:divider="#f7f8f8"
+           />
+
+</LinearLayout>
+    
+
+</LinearLayout>

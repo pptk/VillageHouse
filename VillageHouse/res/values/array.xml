@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="appiontment_hospital">
+        <item>南昌市第四医院</item>
+        <item>解放军第九四医院</item>
+        <item>江西协和医院</item>
+        <item>南昌大学第一附属医院</item>
+        <item>南昌市第二医院</item>
+        <item>南昌市第一医院</item>
+        <item>南昌市第五医院</item>
+        <item>南昌华夏医院</item>
+    </string-array>
+    <string-array name="department">
+        <item>儿科</item>
+        <item>肿瘤</item>
+        <item>妇科</item>
+        <item>血液</item>
+        <item>肝病</item>
+        <item>肾病</item>
+        <item>肛肠</item>
+        <item>心血管科</item>
+        <item>普外科</item>
+        <item>神经外科</item>
+        <item>骨科</item>
+    </string-array>
+
+</resources>

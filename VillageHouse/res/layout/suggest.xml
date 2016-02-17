@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f8f7f7"
+    >
+           
+    
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/blue" >
+
+    
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/yijian"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+
+       
+
+   </RelativeLayout>
+    
+     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" 
+>
+
+        <EditText
+            android:id="@+id/yijian_miaosu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#fefefe"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="请输入您对我们的建议"
+            android:paddingTop="5dip"
+            android:textSize="16sp" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+    
+     
+      <TextView
+             android:id="@+id/yijian_jiange"
+             android:layout_width="fill_parent"
+             android:layout_height="10dip"
+             />
+        
+     <TextView
+             android:id="@+id/yijian_jiange2"
+             android:layout_width="fill_parent"
+             android:layout_height="20dip"
+             />
+        
+      <Button 
+          android:id="@+id/yijian_button"
+          android:layout_width="fill_parent"
+          android:layout_height="40dip"
+          android:text="确定发表"
+          android:textColor="@android:color/white"
+          android:background="@color/blue"
+          android:layout_marginLeft="5dip"
+          android:layout_marginRight="5dip"
+          />
+
+</LinearLayout>

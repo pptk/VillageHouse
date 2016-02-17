@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#eeeeee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tv_null"
+        android:layout_marginTop="2dip" >
+
+        <LinearLayout
+            android:id="@+id/myHouseLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/myHouseImageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/in_me" />
+
+            <TextView
+                android:id="@+id/myHouseTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的家"
+                android:textColor="#0099ff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/villageLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/villageImageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/house" />
+
+            <TextView
+                android:id="@+id/villageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的小区"
+                android:textColor="#a09b9b" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aroundLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/aroundImageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/around" />
+
+            <TextView
+                android:id="@+id/aroundTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小区周边"
+                android:textColor="#a09b9b" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

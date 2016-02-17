@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f7f7f7"
+    >
+    
+    
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="fill_parent"
+    	android:layout_height="100dp"
+    	android:orientation="horizontal"
+    	android:padding="8dp"
+    	android:gravity="center_vertical"
+    	android:background="#ffffff"
+        >
+        <ImageView 
+            android:id="@+id/food_image"
+            android:layout_width="70dp"
+    		android:layout_height="70dp"
+            />
+        <RelativeLayout
+            android:id="@+id/rel1"
+        	android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:layout_marginLeft="20dp"
+    		android:padding="5dp"
+    		android:gravity="left"
+        	>
+              
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="dsdad"
+                android:layout_alignParentTop="true"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />          
+           <TextView
+                android:id="@+id/food_jianjie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="wewew"
+                android:layout_below="@id/food_name"
+                android:textColor="@color/word"
+                android:textSize="14dp" 
+                android:layout_marginTop="8dip"
+                />
+
+           <TextView 
+                android:id="@+id/food_send"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="aadad"
+                android:textSize="14dp"
+                android:textColor="@color/word"
+               />
+ 
+
+        </RelativeLayout>
+      </LinearLayout>
+
+</LinearLayout>

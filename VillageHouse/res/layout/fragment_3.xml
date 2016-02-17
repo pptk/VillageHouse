@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/srollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lin2"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="10dip"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lin3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/yule_title"
+                        android:layout_width="100dip"
+                        android:layout_height="30dip"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/yule_title"
+                        android:textSize="18dip" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#ccc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/taiqiu"
+                        android:layout_width="45dip"
+                        android:layout_height="wrap_content"
+                        android:text="@string/taiqiu"
+                        android:textColor="@color/blue"
+                        android:textSize="16dip" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="20dip"
+                        android:background="#ccc" />
+
+                    <TextView
+                        android:id="@+id/ktv"
+                        android:layout_width="45dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="@string/ktv"
+                        android:textColor="@color/blue"
+                        android:textSize="16dip" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="20dip"
+                        android:background="#ccc" />
+
+                    <TextView
+                        android:id="@+id/meirong"
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="@string/meirong"
+                        android:textColor="@color/blue"
+                        android:textSize="16dip" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="20dip"
+                        android:background="#ccc" />
+
+                    <TextView
+                        android:id="@+id/jiuba"
+                        android:layout_width="45dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="@string/jiuba"
+                        android:textColor="@color/blue"
+                        android:textSize="16dip" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="20dip"
+                        android:background="#ccc" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin5"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="10dip"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lin6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/meishi_title"
+                        android:layout_width="100dip"
+                        android:layout_height="30dip"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/meishi_title"
+                        android:textSize="18dip" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#ccc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/meishi_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sy" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin8"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="30dip"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lin9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/richang_title"
+                        android:layout_width="100dip"
+                        android:layout_height="30dip"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/richang_title"
+                        android:textSize="18dip" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#ccc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/richang_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ry" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

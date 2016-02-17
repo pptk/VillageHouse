@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/CustomerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="彭雄辉" />
+
+    <EditText
+        android:id="@+id/customerAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="先骕楼" />
+
+    <EditText
+        android:id="@+id/customerTelphoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="18270839435" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addressIsOkButton"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/defaultAddressButton"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:text="设为默认地址"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+</LinearLayout>

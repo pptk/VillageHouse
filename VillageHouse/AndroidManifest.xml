@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.villagehouse"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <!-- 定位 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="c37cc70495e95d1838a2c123b833425c" />
+
+        <activity
+            android:name="com.example.login.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.villagehouse.MainActivity" />
+        <activity android:name="com.example.oneactivity.NoticeFirstActivity" />
+        <activity android:name="com.example.oneactivity.NoticeSecondActivity" />
+        <activity android:name="com.example.oneactivity.NoticeThreeActivity" />
+        <activity android:name="com.example.oneactivity.Appointment" />
+        <activity android:name="com.example.oneactivity.Suggest" />
+        <activity android:name="com.example.oneactivity.Bill" />
+        <activity android:name="com.example.oneactivity.HeadLinear" />
+        <activity android:name="com.example.oneactivity.News" />
+        <activity android:name="com.example.oneactivity.Numbers" />
+        <activity
+            android:name="com.example.threefragment.EntertainmentActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.example.threefragment.YuleInfoActivity" />
+        <activity android:name="com.example.threefragment.FoodShopListView" />
+        <activity android:name="com.example.threefragment.FoodShopActivity" />
+        <activity android:name="com.example.threefragment.ShoppingActivity" />
+        <activity android:name="com.example.oneactivity.Monitor" />
+        <activity android:name="com.example.threefragment.LoginActivity" />
+        <activity android:name="com.example.threefragment.MyOrderActivity" />
+        <activity android:name="com.example.threefragment.OrderOkActivity" />
+        <activity android:name="com.example.login.RegistActivity" />
+        <activity android:name="com.example.threefragment.ConvenienceActivity" />
+        <activity android:name="com.example.threefragment.SecondHandActivity" />
+        <activity android:name="com.example.threefragment.SecondHandInputActivity" />
+        <activity android:name="com.example.threefragment.SecondHandDetialActivity" />
+        <activity android:name="com.example.threefragment.SecondCommentActivity" />
+        <activity android:name="com.example.threefragment.BigImageActivity2" />
+        <activity android:name="com.example.threefragment.SuggestActivity" />
+        <activity android:name="com.example.threefragment.HouseKeepingActivity" />
+    </application>
+
+</manifest>

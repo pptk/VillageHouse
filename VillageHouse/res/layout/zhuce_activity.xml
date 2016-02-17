@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#18b4ed"
+    android:gravity="center_vertical|center_horizontal"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:background="#ffffff"
+        >
+	    <EditText
+	        android:id="@+id/zhanghao"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dip"
+	        android:background="#ffffff"
+	        android:hint="请输入电话号码"
+	        android:ems="10" >
+	        <requestFocus />
+	    </EditText>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="1dip"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip"
+	        android:background="#eeeeee"
+	        />
+	    <EditText
+	        android:id="@+id/username"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dip"
+	        android:background="#ffffff"
+	        android:hint="请输入用户名"
+	        android:ems="10" />
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="1dip"
+	        android:background="#eeeeee"
+	        />
+	    <EditText
+	        android:id="@+id/mima_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dip"
+	        android:background="#ffffff"
+	        android:hint="请输入密码"
+	        android:ems="10" />
+	   <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="1dip"
+	        android:background="#eeeeee"
+	        />
+	    <EditText
+	        android:id="@+id/mima_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dip"
+	        android:background="#ffffff"
+	        android:hint="请再次输入密码"
+	        android:ems="10" />
+	   <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="1dip"
+	        android:background="#eeeeee"
+	        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:background="#ec7070"
+        android:textSize="18dip"
+        android:textColor="#ffffff"
+        android:text="注册" />
+
+</LinearLayout>
